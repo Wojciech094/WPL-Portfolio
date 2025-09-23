@@ -95,7 +95,7 @@ export const projects: Project[] = [
 		excerpt: 'My first teamwork project, where I collaborated with classmates to build a simple web app.',
 
 		tags: ['HTML', 'CSS', 'Team Work', 'GitHub'],
-		live: 'https://wojandsim.vercel.app',
+		live: 'https://https://wojandsim.netlify.app/',
 		github: 'https://github.com/wojtek/wojandsim',
 
 		longDescription:

@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+html { scroll-behavior: smooth; }
+body { @apply bg-slate-950 text-slate-100; }
+.container { @apply max-w-[1100px] w-[92%] mx-auto; }
+
+
+@layer utilities {
+  .break-inside-avoid {
+    break-inside: avoid;
+  }
+}

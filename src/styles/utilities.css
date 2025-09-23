@@ -1,0 +1,29 @@
+@reference "tailwindcss";
+
+@layer components {
+	.glass {
+		@apply border border-white/10 backdrop-blur rounded-[18px] shadow-lg;
+	}
+	.btn {
+		@apply inline-flex items-center gap-2 px-4 py-2 rounded-xl border border-white/10 bg-slate-900/60 transition hover:-translate-y-0.5 hover:shadow-lg;
+	}
+	.btn-primary {
+		@apply font-bold text-slate-900 border-0 bg-gradient-to-r from-sky-300 to-violet-400;
+	}
+	.chip {
+		@apply inline-block px-3 py-1 rounded-full text-sm text-sky-300 border border-sky-300/30 bg-sky-300/10;
+	}
+	.card {
+		@apply p-4 rounded-[18px] border border-white/10 bg-slate-900/50 transition hover:-translate-y-0.5 hover:shadow-xl;
+	}
+	.card-cover {
+		@apply overflow-hidden rounded-xl aspect-[16/10] mb-3 bg-gradient-to-r from-sky-300/15 to-violet-400/15;
+	}
+}
+@layer utilities {
+  .break-inside-avoid {
+    break-inside: avoid;
+    -webkit-column-break-inside: avoid;
+    page-break-inside: avoid;
+  }
+}

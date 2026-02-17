@@ -15,6 +15,35 @@ export type Project = {
 
 export const projects: Project[] = [
 	{
+		slug: 'bidhouse',
+		title: 'BidHouse — Auction Web Application',
+		image: '/images/bidhouse.png',
+		excerpt: 'A modern auction web application built with JavaScript and Tailwind CSS using the Noroff Auction API.',
+
+		tags: ['JavaScript', 'Tailwind', 'REST API', 'Authentication'],
+
+		live: 'https://bidhouseweb.netlify.app',
+		github: 'https://github.com/Wojciech094/BidHouse',
+
+		longDescription:
+			'BidHouse is my Semester Project 2 — a full-featured auction platform where users can register, log in, create listings, and place bids in real time. The application integrates with the Noroff Auction API and includes authentication, protected routes, user profiles, credits system, and dynamic UI updates. The goal was to build a production-style web app with real API interaction and a clean modern design.',
+
+		features: [
+			'User registration and login with JWT authentication',
+			'Create, edit and delete auction listings',
+			'Place bids and view bid history',
+			'User profile with credits and wins system',
+			'Dynamic search and filtering',
+			'Responsive modern UI with Tailwind CSS',
+			'Persistent login using access token',
+			'API error handling and validation',
+		],
+
+		whatILearned:
+			'This project significantly improved my understanding of working with real-world APIs, authentication flows, state handling, and structuring larger frontend applications. I learned how to manage asynchronous data, handle protected routes, and build a scalable UI system.',
+	},
+
+	{
 		slug: 'first-portfolio',
 		title: 'My First Portfolio Website',
 		image: '/images/wlportfolio.png',

@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 export default function Nav() {
 	const [open, setOpen] = useState(false);
 
-	// zamykanie menu przy zmianie rozmiaru na >= md
+	
 	useEffect(() => {
 		const onResize = () => {
 			if (window.innerWidth >= 768) setOpen(false);
